@@ -19,14 +19,7 @@
 
 <div id="div1">
 <table id="table">
-    <thead>
-    <tr>
-      <th>Naziv</th>
-      <th>Opis</th>
-      <th>Duzina (km)</th>
-      <th>Tagovi</th>
-    </tr>
-  </thead>
+    
 </table>
 
 <form id="form">
@@ -41,10 +34,12 @@
     <input type="number" id="duzina" name="duzina" placeholder="Duzina">
     </br></br>
     <label for="tagovi">Tagovi: </label>
-    <input type="text" id="tagovi" name="tagovi" placeholder="Tagovi">
+    <div id="unos-taga">
+    <input type="text" name="tagovi" placeholder="Tagovi">
+    </div>
 
     <input type="button" id="submit" value="Dodaj">
-     <input type="button" id="dodajTag" value="dodajTag">
+    <input type="button" id="dodajTag" value="dodajTag">
 </form>
 </div>
  <div id="detalji"></div>
